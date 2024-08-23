@@ -11,7 +11,9 @@
         <h1 id="title">Sams Survey Form</h1>
         <p id="description">Hello friend! Welcome to my survey.</p>
         <form id="survey-form">
-            <label>Name<input id="name" type="text"></label>
+            <label>Name<input id="name" type="text" placeholder="Please enter your name" required></label>
+            <label>eMail<input id="email" type="email" placeholder="Please enter your eMail" required></label>
+            <label>Number<input id="number" type="number" pattern="[0-9]" min="0" max="99"></label>
         </form>
     </body>
 </html>
