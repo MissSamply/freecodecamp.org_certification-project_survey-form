@@ -11,9 +11,19 @@
         <h1 id="title">Sams Survey Form</h1>
         <p id="description">Hello friend! Welcome to my survey.</p>
         <form id="survey-form">
-            <label>Name<input id="name" type="text" placeholder="Please enter your name" required></label>
-            <label>eMail<input id="email" type="email" placeholder="Please enter your eMail" required></label>
-            <label>Number<input id="number" type="number" pattern="[0-9]" min="0" max="99"></label>
+            <label id="name-label">Name<input id="name" type="text" placeholder="Please enter your name" required></label>
+            <label id="email-label">eMail<input id="email" type="email" placeholder="Please enter your eMail" required></label>
+            <!-- eMail validation prüfen, wenn submit Button aktiv -->
+            <label id="number-label">Number<input id="number" type="number" pattern="[0-9]" min="0" max="99"></label>
+            <!-- Number validation prüfen, wenn submit Button aktiv -->
+             <label>Do you like this survey?
+                <select id="dropdown">
+                    <option value="">Please choose an option :)</option>
+                    <option value="1">I'm totally obsessed</option>
+                    <option value="2">Not quite sure yet</option>
+                    <option value="3">Hell na that's crap!</option>
+                </select>
+             </label>
         </form>
     </body>
 </html>
