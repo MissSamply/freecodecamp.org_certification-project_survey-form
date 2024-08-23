@@ -19,7 +19,7 @@
             <!-- Number validation prüfen, wenn submit Button aktiv -->
             </fieldset>
             <fieldset>
-                <label>Do you like this survey?
+                <label for="dropdown">Do you like this survey?
                     <select id="dropdown">
                         <option value="">Please choose an option :)</option>
                         <option value="1">I'm totally obsessed</option>
@@ -30,10 +30,20 @@
             </fieldset>
             <fieldset>
                 <legend>What is your opinion about Avocado Toast?</legend>
-                <label><input id="radio-1" type="radio" name="Avocado" class="inline" checked>Best Breakfast on earth</label>
-                <label><input id="radio-2" type="radio" name="Avocado" class="inline">It tastes like soap</label>
-                <label><input id="radio-3" type="radio" name="Avocado" class="inline">I like it with salmon</label>
-                <label><input id="radio-4" type="radio" name="Avocado" class="inline">Have you tried churros?!</label>
+                <label for="best"><input id="radio-1" type="radio" name="Avocado" class="inline" checked>Best Breakfast on earth</label>
+                <label for="hate"><input id="radio-2" type="radio" name="Avocado" class="inline">It tastes like soap</label>
+                <label for="salmon"><input id="radio-3" type="radio" name="Avocado" class="inline">I like it with salmon</label>
+                <label for="else"><input id="radio-4" type="radio" name="Avocado" class="inline">Have you tried churros?!</label>
+            </fieldset>
+            <fieldset>
+                <legend>Have you ever had one of these pets? (multiple choice allowed)</legend>
+                <label for="checkboxes"><input id="dog" type="checkbox">Dog</label>
+                <label for="checkboxes"><input id="cat" type="checkbox">Cat</label>
+                <label for="checkboxes"><input id="rabbit" type="checkbox">Rabbit</label>
+                <label for="checkboxes"><input id="fish" type="checkbox">Fish</label>
+                <label for="checkboxes"><input id="parrot" type="checkbox">Parrot</label>
+                <label for="checkboxes"><input id="cow" type="checkbox">Cow</label>
+                <label for="checkboxes"><input id="godzilla" type="checkbox">Godzilla</label>
             </fieldset>
         </form>
     </body>
