@@ -13,12 +13,12 @@
         <form id="survey-form">
             <div class="form">
             <fieldset>
-                <label id="name-label">Name<input id="name" type="text" placeholder="Please enter your name" required></label>
-                <label id="email-label">eMail<input id="email" type="email" placeholder="Please enter your eMail" required></label>
-                <label id="number-label">Age<input id="number" type="number" pattern="[0-9]" min="0" max="99" placeholder="How old r u?"></label>
+                <label id="name-label" class="personal">Name<input id="name" type="text" placeholder="Please enter your name" required></label>
+                <label id="email-label" class="personal">eMail<input id="email" type="email" placeholder="Please enter your eMail" required></label>
+                <label id="number-label" class="personal">Age<input id="number" type="number" pattern="[0-9]" min="0" max="99" placeholder="How old r u?"></label>
             </fieldset>
             <fieldset>
-                <label for="dropdown">Do you like this survey?
+                <label for="dropdown" class="dropdown">Do you like this survey?
                     <select id="dropdown">
                         <option value="">Please choose an option :)</option>
                         <option value="1">I'm totally obsessed</option>
