@@ -57,9 +57,15 @@ fieldset {
   border-bottom: 3px solid #3b3b4f;
 }
 
+/*
 fieldset:last-of-type {
     border-bottom: none;
   }
+*/
+
+.last {
+  border-bottom: none;
+}
 
 label {
     display: block;
@@ -74,7 +80,6 @@ label {
 }
 
 input,
-textarea,
 select {
     margin: 0.5em 0 0 0;
     width: 100%;
@@ -107,3 +112,39 @@ input[type="submit"] {
     color: rgb(223, 238, 238);
     border-color: rgb(223, 238, 238);
 } 
+
+/*Checkkboxen & Textfeld */
+
+.container {
+  display: flex;
+  height: 20%; 
+}
+
+.checkboxes {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 50%; /* Feste Breite für die Checkboxen-Seite */
+  background-color: #f5f5f5;
+
+}
+
+.checkboxes label {
+  margin-bottom: 10px; /* Abstand zwischen den Checkboxen */
+}
+
+.text-field {
+  flex: 1; /* Nimmt den restlichen Platz im Container ein */
+  padding: 20px;
+  border-left: 2px solid #ddd; /* Optionale Trennungslinie */
+  box-sizing: border-box; /* Berücksichtigt Padding und Border in der Gesamtbreite */
+}
+
+textarea {
+  width: 50%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  border: 1px solid #ccc;
+  resize: none; /* Verhindert die Größenänderung */
+}
