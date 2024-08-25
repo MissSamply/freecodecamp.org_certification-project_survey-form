@@ -1,15 +1,22 @@
 body {
-    background-color: slategray;
+    background-image: url(../freecodecamp.org_certification-project_survey-form/Background_picture.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: fantasy;
+}
+
+.form {
+    background-color: burlywood;
 }
 
 h1 {
     color: #a84032;
-    margin: 1em auto;
+    margin: 0.5em auto;
     text-align: center;
 }
 
 p {
-    margin: 1em auto;
+    margin: auto;
     text-align: center;
 }
 
@@ -25,4 +32,21 @@ fieldset {
     border: none;
     padding: 2rem 0;
     border-bottom: 3px solid #3b3b4f;
+  }
+
+fieldset:last-of-type {
+    border-bottom: none;
+  }
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+
+input,
+textarea,
+select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
   }
