@@ -2,11 +2,18 @@ body {
     background-image: url(../freecodecamp.org_certification-project_survey-form/Background_picture.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center top;
     font-family: fantasy;
 }
 
 .form {
-    background-color: burlywood;
+    width: 150%;
+    background-color: rgb(134, 133, 130);
+    margin-left: -30%;
+    padding: 20px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-radius: 5px;
 }
 
 h1 {
@@ -16,7 +23,7 @@ h1 {
 }
 
 p {
-    margin: auto;
+    margin: 1em auto;
     text-align: center;
 }
 
