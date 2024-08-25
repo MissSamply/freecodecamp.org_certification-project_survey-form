@@ -27,6 +27,14 @@ p {
     text-align: center;
 }
 
+.start {
+  margin-top: 0;
+  margin-bottom: 2em;
+  margin-left: 3em auto;
+  margin-right: 3em auto;
+  text-align: center;
+}
+
 form {
     width: 60vw;
     max-width: 500px;
@@ -60,7 +68,7 @@ label {
 input,
 textarea,
 select {
-    margin: 10px 0 0 0;
+    margin: 2em 0 0 0;
     width: 100%;
     min-height: 2em;
   }
