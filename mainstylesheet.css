@@ -100,7 +100,7 @@ select {
   display: inline;
 }
 
-input[type="submit"] {
+button[type="submit"] {
     display: block;
     width: 50%;
     margin: 1em auto;
