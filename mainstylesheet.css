@@ -20,11 +20,18 @@ h1 {
     color: #a84032;
     margin: 0.5em auto;
     text-align: center;
+    font-size: 3em;
 }
 
 p {
-    margin: 1em auto;
-    text-align: center;
+  margin: 1em auto;
+  text-align: center;
+  font-size: 2em;
+}
+
+legend {
+  margin: 0 0 -2em 0 ;
+  text-align: center;
 }
 
 .start {
@@ -44,10 +51,11 @@ form {
 }
 
 fieldset {
-    border: none;
-    padding: 2rem 0;
-    border-bottom: 3px solid #3b3b4f;
-  }
+  border: none;
+  margin: 2em 0 0 0;
+  padding: 2rem 0;
+  border-bottom: 3px solid #3b3b4f;
+}
 
 fieldset:last-of-type {
     border-bottom: none;
@@ -68,10 +76,24 @@ label {
 input,
 textarea,
 select {
-    margin: 2em 0 0 0;
+    margin: 0.5em 0 0 0;
     width: 100%;
     min-height: 2em;
   }
+
+.inline {
+  width: unset;
+  margin: 0 0.5rem 0 0;
+  vertical-align: middle;
+  display: inline;
+}  
+
+.checkbox {
+  width: unset;
+  margin: 0 0.5rem 0 0;
+  vertical-align: middle;
+  display: inline;
+}
 
 input[type="submit"] {
     display: block;

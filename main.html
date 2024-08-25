@@ -13,13 +13,14 @@
         <form id="survey-form">
             <div class="form">
             <fieldset>
-                <p class="start">Please tell me something about you:</p>
+                <legend class="start">Please tell me something about you:</legend>
                 <label id="name-label" class="personal">Name<input id="name" type="text" placeholder="Please enter your name" required></label>
                 <label id="email-label" class="personal">eMail<input id="email" type="email" placeholder="Please enter your eMail" required></label>
                 <label id="number-label" class="personal">Age<input id="number" type="number" pattern="[0-9]" min="0" max="99" placeholder="How old r u?"></label>
             </fieldset>
             <fieldset>
-                <label for="dropdown" class="dropdown">Do you like this survey?
+                <legend>Do you like this survey?</legend>
+                <label for="dropdown" class="dropdown">
                     <select id="dropdown">
                         <option value="">Please choose an option :)</option>
                         <option value="1">I'm totally obsessed</option>
@@ -37,15 +38,16 @@
             </fieldset>
             <fieldset>
                 <legend>Have you ever had one of these pets? (multiple choice allowed)</legend>
-                <label for="checkboxes"><input id="dog" type="checkbox">Dog</label>
-                <label for="checkboxes"><input id="cat" type="checkbox">Cat</label>
-                <label for="checkboxes"><input id="rabbit" type="checkbox">Rabbit</label>
-                <label for="checkboxes"><input id="fish" type="checkbox">Fish</label>
-                <label for="checkboxes"><input id="parrot" type="checkbox">Parrot</label>
-                <label for="checkboxes"><input id="cow" type="checkbox">Cow</label>
-                <label for="checkboxes"><input id="godzilla" type="checkbox">Godzilla</label>
+                <label class="checkbox"><input id="dog" type="checkbox">Dog</label>
+                <label class="checkbox"><input id="cat" type="checkbox">Cat</label>
+                <label class="checkbox"><input id="rabbit" type="checkbox">Rabbit</label>
+                <label class="checkbox"><input id="fish" type="checkbox">Fish</label>
+                <label class="checkbox"><input id="parrot" type="checkbox">Parrot</label>
+                <label class="checkbox"><input id="cow" type="checkbox">Cow</label>
+                <label class="checkbox"><input id="godzilla" type="checkbox">Godzilla</label>
                 <textarea id="pets" name="pets" rows="5" cols="50" placeholder="Tell me something about your pet..."></textarea>  
-            <input type="submit" value="Send it!">      
+             <input type="submit" value="Send it!">    
+            </fieldset>  
         </div>   
         </form>
     </body>
